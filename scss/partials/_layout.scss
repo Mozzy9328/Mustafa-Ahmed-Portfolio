@@ -132,7 +132,7 @@ main {
 
 // Carousel
 .carousel-inner {
-	width: 60% !important;
+	width: 77% !important;
 	margin: 0 auto;
 }
 .carousel-caption {
@@ -154,6 +154,11 @@ main {
 .card-body {
 	background-color: $primary-color;
 
+	.row {
+		--bs-gutter-y: 1rem !important;
+		--bs-gutter-x: 4.5rem !important;
+	}
+
 	.btn {
 		background-color: $secondary-color;
 		width: 60%;
@@ -164,6 +169,13 @@ main {
 			font-weight: 500;
 		}
 	}
+}
+
+// EXPERIENCE
+
+.h2 {
+	width: 50%;
+	margin: 0 auto;
 }
 
 // FOOTER
