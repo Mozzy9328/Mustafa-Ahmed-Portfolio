@@ -8,6 +8,14 @@ h1 {
 	margin: 50px auto !important;
 }
 
+.github {
+	text-decoration: underline;
+
+	&:hover {
+		color: blue;
+	}
+}
+
 .index-title {
 	h1 {
 		font-size: 45px !important;
